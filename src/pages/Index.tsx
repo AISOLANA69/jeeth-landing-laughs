@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-jeeth-cyan via-jeeth-purple to-jeeth-pink">
+    <div className="min-h-screen bg-black">
       <div className="container mx-auto px-4 py-16">
         {/* Hero Section */}
         <div className="text-center mb-16">
@@ -46,6 +46,9 @@ const Index = () => {
           <h2 className="text-3xl font-bold text-white mb-4">
             Meet the Founder
           </h2>
+          <p className="text-white/80 text-lg mb-4">
+            Hi, I am Vikram Bhutre the founder of Jeethereum
+          </p>
           <p className="text-white/80 text-lg">
             The mastermind behind the next big thing in crypto
           </p>
